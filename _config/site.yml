@@ -2,3 +2,13 @@ name: Project Name
 title: Baked with Awestruct
 org: Organization
 base_url: ''
+
+profiles:
+  production:
+    base_url: http://autodeploy-jgoncalv.rhcloud.com
+    deploy:
+      host: openshift
+      # use gh-branch for repositories other than <username>.github.io
+      branch: compiled
+      # use master branch for <username>.github.io repository
+      #branch: master
