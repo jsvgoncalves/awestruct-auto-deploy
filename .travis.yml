@@ -1,0 +1,9 @@
+deploy:
+  provider: openshift
+  user: jgoncalv@redhat.com
+  password:
+    secure: fuZoX0mcFWGeno2wg7GfDTUjm3J3CnZi8jUcXPX7Tvtt4wjXtEJLp7SS3sBMUHYc+aekU2x1q5NyntTEcY3X3QVBrXjuWxMNaQv1nk1wcQowg7QW83rTrRy3Or8zvuC3Dc15vYndPdOl1w6OOXXX+++SrISQ3J6U6Bq6vbzrO1tqMduVBJdMiOkoWglrTJfOiGSkHmDLCxF/WphO+BsHIKX2/Y+kHv+OybDRGt2THpSn0LKIVyrmzoCS/2yu9p7U59VH+v54YfsLsTCYdQBEOMBp48A2FrGrV3QhmxnfNpCmRhRwldq8/3Ii1GduqgDwUDMa4oTIiR3KXJz/nnzlj252IAjPO7PUu1zpfw7PbfnsYKYljxSfWYJii6aLP4XpN80owHLg2C1LXhhi/ffxFS4PTINZn6SGPTa5QIbS4ymt83G20kosO0NQk/xVCu8TpXHmcpM+GIwZa7JZUdgGk2pqA7d06fYqLoJ1FyXG0BstFCVIgW4hzNHx+tyKVkU400liGOgZS+eOHx7fBR/FlcOAtLQABd7Mkd8InIjMndrofjLz0urj+V0d1NZHMHepSVtPOlBVyqw3h8b9Fp8o6Bytaw803osEIXY/fNsynUPzr2EeQhkT6f/4yXsOgIeJ7FPg1OQ6ubo9NlobnKMe00ED2SVUlEF1LJ6R1CpJMjc=
+  app: autodeploy
+  domain: jgoncalv
+  on:
+    repo: jsvgoncalves/awestruct-auto-deploy
